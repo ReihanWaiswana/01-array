@@ -92,3 +92,102 @@ Sehingga persentase kelulusan adalah:
 
 - Lulus : 70%
 - Tidak Lulus : 30%
+
+# 3. Analisis Kompleksitas Algoritma
+
+Analisis kompleksitas digunakan untuk mengetahui efisiensi suatu algoritma berdasarkan jumlah data yang diproses.
+
+Dalam analisis ini digunakan notasi **Big O Notation**.
+
+## Soal_01
+
+## - Input Nilai Mahasiswa
+
+    for i in range(10):
+
+**Kompleksitas waktu:**
+
+`O(n)`
+
+Karena program melakukan proses input sebanyak jumlah data yang dimasukkan.
+
+## - Menampilkan Nilai Tertinggi
+
+    max(nilai)
+
+**Kompleksitas waktu:**
+
+`O(n)`
+
+Karena fungsi `max()` harus memeriksa seluruh elemen dalam array untuk menentukan nilai terbesar.
+
+## - Menampilkan Nilai Terendah
+
+    min(nilai)
+
+**Kompleksitas waktu:**
+
+`O(n)`
+
+Karena fungsi `min()` harus memeriksa semua elemen dalam array untuk menentukan nilai terkecil.
+
+## - Menghitung Rata-Rata
+    
+    sum(nilai)/len(nilai)
+
+**Kompleksitas waktu:**
+
+`O(n)`
+
+Karena fungsi `sum()` menjumlahkan seluruh elemen dalam array.
+
+## - Menghitung Jumlah Mahasiswa Lulus
+    for n in nilai:
+        if n >= 60:
+            lulus += 1
+
+**Kompleksitas waktu:**
+
+`O(n)`
+
+Karena program harus memeriksa setiap nilai mahasiswa satu per satu.
+
+## Soal_02
+
+## - Inisialisasi Array
+
+    nilai = np.array([90, 78, 98, 56, 67, 54, 70, 60, 49, 95])
+
+**Kompleksitas waktu:**
+
+`O(1)`
+
+Karena array dibuat langsung dengan nilai yang sudah ditentukan sebelumnya. Karena jumlah elemen bersifat tetap (10 nilai), maka proses ini memiliki kompleksitas konstan dan tidak bergantung pada ukuran input.
+
+## - Print array
+
+    print("Daftar Nilai :", nilai)
+
+**Kompleksitas waktu:**
+
+`O(1)`
+
+Karena hanya menampilkan data.
+
+## - Menghitung jumlah mahasiswa tidak lulus
+
+    tidakLulus = len(nilai) - lulus
+
+**Kompleksitas waktu:**
+
+`O(1)`
+
+Karena operasi ini hanya melakukan pengurangan antara jumlah total mahasiswa dengan jumlah mahasiswa yang lulus. Fungsi `len()` pada Python memiliki kompleksitas `O(1)` karena panjang array sudah tersimpan dalam struktur data.
+
+## - Pembuatan Grafik
+
+Pembuatan grafik menggunakan library Matplotlib memiliki kompleksitas yang relatif kecil terhadap jumlah data sehingga dapat dianggap:
+
+`O(1)`
+
+Pembuatan grafik menggunakan Matplotlib memiliki kompleksitas O(1) karena jumlah data yang divisualisasikan tetap (nilai tertinggi, nilai terendah, jumlah lulus, dan tidak lulus). Jumlah elemen pada grafik tidak bertambah meskipun jumlah data mahasiswa meningkat.
