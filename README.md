@@ -3,7 +3,7 @@
 
 Project ini merupakan implementasi sederhana dari konsep struktur data array menggunakan bahasa pemrograman Python. Program dibuat untuk mengelola nilai mahasiswa dengan beberapa fitur analisis data dan visualisasi grafik.
 
-- Program ini memiliki fitur utama:
+Program ini memiliki fitur utama:
 - Input 10 nilai mahasiswa
 - Menampilkan daftar nilai
 - Menampilkan nilai tertinggi
@@ -47,3 +47,48 @@ Setelah semua nilai dimasukkan, array tersebut digunakan untuk melakukan beberap
 - menghitung jumlah mahasiswa yang lulus
 
 Dengan menggunakan array, pengolahan data menjadi lebih mudah karena semua nilai tersimpan dalam satu struktur data.
+
+# 2. Screenshot Hasil Eksekusi Program
+
+## Soal_01
+
+Berikut adalah hasil eksekusi program pada Google Colab.
+
+### Input Nilai Mahasiswa
+
+Program meminta pengguna untuk memasukkan 10 nilai mahasiswa.
+
+Contoh input pada program:
+
+<img width="251" height="235" alt="image" src="https://github.com/user-attachments/assets/cdbb44cb-eea6-4b8c-bd4d-7ab6d05e0420" />
+
+### Output Program
+
+Setelah data dimasukkan, program akan menampilkan hasil analisis:
+
+<img width="667" height="165" alt="image" src="https://github.com/user-attachments/assets/c505f32d-784e-4af9-935e-e97acc0fae78" />
+
+## Soal_02
+
+### Grafik Perbandingan Nilai Tertinggi & Terendah
+
+Program menampilkan grafik batang untuk memperlihatkan perbandingan antara nilai tertinggi dan nilai terendah mahasiswa.
+
+<img width="571" height="435" alt="image" src="https://github.com/user-attachments/assets/ffbdf00e-48c2-43ec-b522-519acb651fe8" />
+
+Grafik ini membantu memvisualisasikan perbedaan nilai secara lebih jelas.
+
+### Grafik Persentase Kelulusan
+
+Program juga menampilkan grafik pie yang menunjukkan persentase mahasiswa yang lulus dan tidak lulus.
+
+Pada contoh data:
+- 7 mahasiswa lulus
+- 3 mahasiswa tidak lulus
+
+Sehingga persentase kelulusan adalah:
+
+<img width="515" height="411" alt="image" src="https://github.com/user-attachments/assets/3ef0ba23-c701-4bd4-8860-022032ed29f7" />
+
+- Lulus : 70%
+- Tidak Lulus : 30%
