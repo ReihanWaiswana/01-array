@@ -191,3 +191,24 @@ Pembuatan grafik menggunakan library Matplotlib memiliki kompleksitas yang relat
 `O(1)`
 
 Pembuatan grafik menggunakan Matplotlib memiliki kompleksitas O(1) karena jumlah data yang divisualisasikan tetap (nilai tertinggi, nilai terendah, jumlah lulus, dan tidak lulus). Jumlah elemen pada grafik tidak bertambah meskipun jumlah data mahasiswa meningkat.
+
+# 4. Refleksi Pembelajaran
+
+Saya mempelajari beberapa konsep penting tentang struktur data dan pemrograman selama tugas ini.
+
+Pertama, saya belajar bagaimana list, atau array, mempermudah proses pengolahan data dengan menyimpan banyak data dalam satu variabel.
+
+Saya juga belajar cara membaca data pengguna dan melakukan proses analisis dengan menggunakan loop.
+
+Selain itu, saya mempelajari bagaimana menghitung nilai statistik sederhana seperti:
+
+- Nilai tertinggi
+- Nilai terendah
+- Rata-rata
+- Jumlah mahasiswa yang lulus
+
+Menurut saya tugas ini sangat menarik karena penggunaan grafik untuk menunjukkan data sehingga hasil analisis lebih mudah dipahami.
+
+Salah satu praktik penting dalam pengembangan perangkat lunak adalah penggunaan **GitHub** untuk menyimpan project dan melakukan commit secara bertahap.
+
+Melalui tugas ini, saya meningkatkan pemahaman saya tentang bagaimana konsep struktur data dapat digunakan untuk menyelesaikan masalah pengolahan data yang lebih sederhana.
