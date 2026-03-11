@@ -1,9 +1,9 @@
-# Sistem Pengelolaan Nilai Mahasiswa Menggunakan Array
-## Deskripsi Project
+# 📝 Sistem Pengelolaan Nilai Mahasiswa Menggunakan Array
+## 💡 Deskripsi Project
 
 Project ini merupakan implementasi sederhana dari konsep struktur data array menggunakan bahasa pemrograman Python. Program dibuat untuk mengelola nilai mahasiswa dengan beberapa fitur analisis data dan visualisasi grafik.
 
-Program ini memiliki fitur utama:
+### Program ini memiliki fitur utama:
 - Input 10 nilai mahasiswa
 - Menampilkan daftar nilai
 - Menampilkan nilai tertinggi
@@ -15,7 +15,7 @@ Program ini memiliki fitur utama:
 
 Program dijalankan menggunakan Python di Google Colab dan hasil visualisasi dibuat menggunakan library Matplotlib.
 
-# 1. Penjelasan Konsep Array
+# 1. Penjelasan Konsep Array 📄
 
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu variabel dengan tipe yang sama. Dalam Python, array biasanya diimplementasikan menggunakan list.
 
@@ -48,13 +48,13 @@ Setelah semua nilai dimasukkan, array tersebut digunakan untuk melakukan beberap
 
 Dengan menggunakan array, pengolahan data menjadi lebih mudah karena semua nilai tersimpan dalam satu struktur data.
 
-# 2. Screenshot Hasil Eksekusi Program
+# 2. Screenshot Hasil Eksekusi Program 📷
 
 ## Soal_01
 
 Berikut adalah hasil eksekusi program pada Google Colab.
 
-### Input Nilai Mahasiswa
+### - Input Nilai Mahasiswa 
 
 Program meminta pengguna untuk memasukkan 10 nilai mahasiswa.
 
@@ -62,7 +62,7 @@ Contoh input pada program:
 
 <img width="251" height="235" alt="image" src="https://github.com/user-attachments/assets/cdbb44cb-eea6-4b8c-bd4d-7ab6d05e0420" />
 
-### Output Program
+### - Output Program
 
 Setelah data dimasukkan, program akan menampilkan hasil analisis:
 
@@ -70,7 +70,7 @@ Setelah data dimasukkan, program akan menampilkan hasil analisis:
 
 ## Soal_02
 
-### Grafik Perbandingan Nilai Tertinggi & Terendah
+### - Grafik Perbandingan Nilai Tertinggi & Terendah 
 
 Program menampilkan grafik batang untuk memperlihatkan perbandingan antara nilai tertinggi dan nilai terendah mahasiswa.
 
@@ -78,7 +78,7 @@ Program menampilkan grafik batang untuk memperlihatkan perbandingan antara nilai
 
 Grafik ini membantu memvisualisasikan perbedaan nilai secara lebih jelas.
 
-### Grafik Persentase Kelulusan
+### - Grafik Persentase Kelulusan
 
 Program juga menampilkan grafik pie yang menunjukkan persentase mahasiswa yang lulus dan tidak lulus.
 
@@ -93,7 +93,7 @@ Sehingga persentase kelulusan adalah:
 - Lulus : 70%
 - Tidak Lulus : 30%
 
-# 3. Analisis Kompleksitas Algoritma
+# 3. Analisis Kompleksitas Algoritma 🔎
 
 Analisis kompleksitas digunakan untuk mengetahui efisiensi suatu algoritma berdasarkan jumlah data yang diproses.
 
@@ -101,7 +101,7 @@ Dalam analisis ini digunakan notasi **Big O Notation**.
 
 ## Soal_01
 
-## - Input Nilai Mahasiswa
+### - Input Nilai Mahasiswa
 
     for i in range(10):
 
@@ -111,7 +111,7 @@ Dalam analisis ini digunakan notasi **Big O Notation**.
 
 Karena program melakukan proses input sebanyak jumlah data yang dimasukkan.
 
-## - Menampilkan Nilai Tertinggi
+### - Menampilkan Nilai Tertinggi
 
     max(nilai)
 
@@ -121,7 +121,7 @@ Karena program melakukan proses input sebanyak jumlah data yang dimasukkan.
 
 Karena fungsi `max()` harus memeriksa seluruh elemen dalam array untuk menentukan nilai terbesar.
 
-## - Menampilkan Nilai Terendah
+### - Menampilkan Nilai Terendah
 
     min(nilai)
 
@@ -131,7 +131,7 @@ Karena fungsi `max()` harus memeriksa seluruh elemen dalam array untuk menentuka
 
 Karena fungsi `min()` harus memeriksa semua elemen dalam array untuk menentukan nilai terkecil.
 
-## - Menghitung Rata-Rata
+### - Menghitung Rata-Rata
     
     sum(nilai)/len(nilai)
 
@@ -141,7 +141,7 @@ Karena fungsi `min()` harus memeriksa semua elemen dalam array untuk menentukan 
 
 Karena fungsi `sum()` menjumlahkan seluruh elemen dalam array.
 
-## - Menghitung Jumlah Mahasiswa Lulus
+### - Menghitung Jumlah Mahasiswa Lulus
     for n in nilai:
         if n >= 60:
             lulus += 1
@@ -154,7 +154,7 @@ Karena program harus memeriksa setiap nilai mahasiswa satu per satu.
 
 ## Soal_02
 
-## - Inisialisasi Array
+### - Inisialisasi Array
 
     nilai = np.array([90, 78, 98, 56, 67, 54, 70, 60, 49, 95])
 
@@ -164,7 +164,7 @@ Karena program harus memeriksa setiap nilai mahasiswa satu per satu.
 
 Karena array dibuat langsung dengan nilai yang sudah ditentukan sebelumnya. Karena jumlah elemen bersifat tetap (10 nilai), maka proses ini memiliki kompleksitas konstan dan tidak bergantung pada ukuran input.
 
-## - Print array
+### - Print array
 
     print("Daftar Nilai :", nilai)
 
@@ -174,7 +174,7 @@ Karena array dibuat langsung dengan nilai yang sudah ditentukan sebelumnya. Kare
 
 Karena hanya menampilkan data.
 
-## - Menghitung jumlah mahasiswa tidak lulus
+### - Menghitung jumlah mahasiswa tidak lulus
 
     tidakLulus = len(nilai) - lulus
 
@@ -184,15 +184,15 @@ Karena hanya menampilkan data.
 
 Karena operasi ini hanya melakukan pengurangan antara jumlah total mahasiswa dengan jumlah mahasiswa yang lulus. Fungsi `len()` pada Python memiliki kompleksitas `O(1)` karena panjang array sudah tersimpan dalam struktur data.
 
-## - Pembuatan Grafik
+### - Pembuatan Grafik
 
 Pembuatan grafik menggunakan library Matplotlib memiliki kompleksitas yang relatif kecil terhadap jumlah data sehingga dapat dianggap:
 
 `O(1)`
 
-Pembuatan grafik menggunakan Matplotlib memiliki kompleksitas O(1) karena jumlah data yang divisualisasikan tetap (nilai tertinggi, nilai terendah, jumlah lulus, dan tidak lulus). Jumlah elemen pada grafik tidak bertambah meskipun jumlah data mahasiswa meningkat.
+Pembuatan grafik menggunakan Matplotlib memiliki kompleksitas `O(1)` karena jumlah data yang divisualisasikan tetap (nilai tertinggi, nilai terendah, jumlah lulus, dan tidak lulus). Jumlah elemen pada grafik tidak bertambah meskipun jumlah data mahasiswa meningkat.
 
-# 4. Refleksi Pembelajaran
+# 4. Refleksi Pembelajaran 📘
 
 Saya mempelajari beberapa konsep penting tentang struktur data dan pemrograman selama tugas ini.
 
@@ -209,6 +209,6 @@ Selain itu, saya mempelajari bagaimana menghitung nilai statistik sederhana sepe
 
 Menurut saya tugas ini sangat menarik karena penggunaan grafik untuk menunjukkan data sehingga hasil analisis lebih mudah dipahami.
 
-Salah satu praktik penting dalam pengembangan perangkat lunak adalah penggunaan **GitHub** untuk menyimpan project dan melakukan commit secara bertahap.
+Salah satu praktik penting dalam pengembangan perangkat lunak adalah penggunaan **GitHub** untuk menyimpan project dan melakukan commit secara bertahap, hal tersebut juga saya pelajari dalam pembelajaran ini.
 
 Melalui tugas ini, saya meningkatkan pemahaman saya tentang bagaimana konsep struktur data dapat digunakan untuk menyelesaikan masalah pengolahan data yang lebih sederhana.
